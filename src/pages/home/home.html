@@ -1,0 +1,32 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Rogers
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+<!-- 
+<ion-content padding>
+        <div class="col text-center">
+            <button ion-button round full (click)="registerVictim()"> Register as a Victim</button>
+          </div>
+  <br>
+  <p style="text-align: center">OR</p>
+  <br>
+  <button ion-button round full (click)="registerVolunteer()">Register as a volunteer</button>
+</ion-content> -->
+<ion-content padding>
+<ion-grid >
+  <ion-row>
+    <ion-col center text-center>
+      <button ion-button full color="success" (click)="registerVictim()">Register as a Victim</button>
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col center text-center>
+      <button ion-button full color="lightText" (click)="registerVolunteer()">Register as a volunteer</button>
+    </ion-col>
+  </ion-row>
+</ion-grid>
+</ion-content>
+
